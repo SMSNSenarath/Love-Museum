@@ -1,0 +1,40 @@
+body{
+    background-color: #bde0fe;
+    font-family: Montserrat, san-serif;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: white;   
+}
+
+#mainNavbar .nav-link:hover{
+    color: #ff006e;   
+}
+
+#mainNavbar .navbar-brand{
+    color: #ff006e;
+
+}
+
+#headingGroup span{
+    color: #ff006e;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+
+@media (max-width: 1200px){
+
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
