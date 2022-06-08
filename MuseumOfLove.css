@@ -31,14 +31,6 @@ body{
 }
 
 
-@media (max-width: 1200px){
-
-    #headingGroup h1{
-        font-weight: 100;
-        font-size: 3rem;
-    }
-}
-
 .blurb h2{
     color: #ff006e;
     font-weight: 100;
@@ -58,4 +50,22 @@ body{
 
 .content{
     margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.navbar.scrolled {
+    background: #ffc8dd;
+    transition: background 500ms;
+}
+
+
+
+
+@media (max-width: 1200px){
+
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
 }
